@@ -1,0 +1,25 @@
+:root {
+   --cor-fundo-principal: #4A4B4F;
+   --cor-fundo-secundaria: #E5E5E5;
+   --cor-fundo-final: #633434;
+   --corText: #ffffff;
+   --corText-destaque: #FFE921;
+   --corText-secundario: #424242;
+   --corText-preto: #000000;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Alice', serif;
+}
+
+.corpo {
+   background: var(--cor-fundo-principal);
+}
+
+
+#nav-link {
+   color: var(--corText);
+
+}

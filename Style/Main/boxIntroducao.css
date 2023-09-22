@@ -1,0 +1,49 @@
+.corpo__boxIntroducao {
+   color: var(--corText);
+   margin-bottom: 2rem;
+   padding: .5rem 9rem;
+   text-align: center;
+}
+
+.boxIntroducao__text {
+   font-weight: 700;
+   padding: .6rem 0;
+}
+
+.boxIntroducao__destaque {
+   font-weight: 700;
+   color: var(--corText-destaque);
+}
+
+.boxIntroducao__caixaAlta {
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.boxIntroducao__boxBeneficios {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   text-align: start;
+   height: 320px;
+}
+
+.boxIntroducao__boxBeneficios--image {
+   width: 30rem;
+}
+
+.boxIntroducao__boxBeneficios--lista {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+
+.lista {
+   list-style-type: none;
+}
+
+.bi.bi-star-fill {
+   color: var(--corText-destaque);
+   margin-right: 1rem;
+}

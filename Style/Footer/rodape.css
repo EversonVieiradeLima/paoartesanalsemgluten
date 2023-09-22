@@ -1,0 +1,15 @@
+.rodape {
+   background-color: #000000;
+   color: var(--corText);
+   padding: 1rem 0;
+   text-align: center;
+}
+
+.rodape__boxLink {
+   display: flex;
+   justify-content: space-around;
+}
+
+.rodape__boxLink--link {
+   color: var(--corText);
+}

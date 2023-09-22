@@ -1,0 +1,12 @@
+.corpo__primeiraChamada {
+   color: var(--corText);
+   font-size: 2rem;
+   padding: 1rem 9rem;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.corpo__primeiraChamada--link {
+   color: var(--corText);
+   text-transform: uppercase;
+}

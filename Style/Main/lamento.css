@@ -1,0 +1,19 @@
+.corpo__lamento {
+   background-color: var(--cor-fundo-final);
+   color: var(--corText);
+   font-size: 1.3rem;
+   padding: 2rem 9rem;
+   text-align: center;
+}
+
+.lamento__boxLista {
+   text-align: start;
+}
+
+.lamento__boxLista--lista {
+   display: flex;
+   flex-direction: column;
+   height: 10rem;
+   justify-content: space-between;
+   margin-bottom: 0;
+}

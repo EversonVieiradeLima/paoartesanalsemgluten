@@ -1,0 +1,29 @@
+.corpo__provasSociais {
+   background-color: var(--cor-fundo-secundaria);
+   padding: 0 9rem;
+}
+
+.corpo__provasSociais--titulo,
+.corpo__provasSociais--text {
+   color: var(--corText-secundario);
+   font-size: 2.5rem;
+   font-weight: 600;
+   padding: 2rem 0;
+   text-align: center;
+}
+
+.provasSociais__boxConteudo {
+   align-items: center;
+   display: flex;
+}
+
+.provasSociais__boxConteudo--image {
+   height: 18rem;
+   margin-right: 2rem;
+}
+
+.provasSociais__boxConteudo--text {
+   font-weight: 600;
+   font-size: 1.5rem;
+   padding-right: 20rem;
+}

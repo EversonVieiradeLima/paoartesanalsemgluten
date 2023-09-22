@@ -1,0 +1,15 @@
+.corpo__bonus {
+   background: url("../../Imagens/banners/Nuvens.png") no-repeat center / cover;
+   padding: 0 9rem;
+}
+
+.corpo__bonus--titulo {
+   padding-top: 1rem;
+   font-size: 2.1rem;
+   font-weight: 700;
+   text-align: center;
+}
+
+.corpo__bonus--imagem {
+   width: 60rem;
+}

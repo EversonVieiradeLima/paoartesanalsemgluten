@@ -1,0 +1,16 @@
+.corpo__garantia {
+   align-items: center;
+   background-color: var(--corText);
+   display: flex;
+   padding: 2rem 9rem;
+}
+
+.corpo__garantia--imagem {
+   margin-right: 2rem;
+   width: 13rem;
+}
+
+.corpo__garantia--text {
+   font-size: 1.5rem;
+   font-weight: 700;
+}

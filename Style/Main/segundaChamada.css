@@ -1,0 +1,13 @@
+.corpo__segundaChamada {
+   color: var(--corText);
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 1rem 9rem;
+   text-align: center;
+}
+
+.corpo__segundaChamada--botao {
+   font-size: 2rem;
+   font-weight: 600;
+   text-transform: capitalize;
+}

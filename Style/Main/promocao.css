@@ -1,0 +1,19 @@
+.corpo__promocao {
+   background-color: var(--corText);
+   padding: 1rem 9rem;
+   text-align: center;
+}
+
+.promocao__text {
+   font-size: 2.5rem;
+   font-weight: 600;
+   margin: 0;
+}
+
+.promocao__text--del {
+   color: var(--corText-destaque);
+}
+
+.promocao__text--destaque {
+   font-size: 3rem;
+}
