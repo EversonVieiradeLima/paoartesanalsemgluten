@@ -26,3 +26,18 @@
       width: 30rem;
    }
 }
+
+@media (max-width: 430px) {
+   .corpo__bonus {
+      padding: 0 1rem;
+   }
+
+   .corpo__bonus--titulo {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+   }
+
+   .corpo__bonus--imagem {
+      width: 20rem;
+   }
+}

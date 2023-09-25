@@ -23,3 +23,17 @@
       padding: 0 2rem;
    }
 }
+
+@media (max-width: 430px) {
+   .corpo__promocao {
+      padding: 0 1rem;
+   }
+
+   .promocao__text {
+      font-size: 1.6rem;
+   }
+
+   .promocao__text--destaque {
+      font-size: 2rem;
+   }
+}

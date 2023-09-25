@@ -66,3 +66,32 @@
       font-size: 2rem;
    }
 }
+
+@media (max-width: 430px) {
+   .corpo__noticias {
+      margin-top: 0;
+   }
+
+   .corpo__noticias--titulo {
+      font-size: 1.6rem;
+      padding: 0 1rem;
+   }
+
+   .corpo__noticias__boxNoticia {
+      flex-direction: column;
+      margin: 0 1rem;
+   }
+
+   .noticias__boxNoticia--image {
+      width: 9rem;
+      margin-right: 0;
+   }
+
+   .noticias__boxNoticia--text {
+      font-size: 1rem;
+   }
+
+   .noticias__boxNoticia--text.folhaSP.titulo {
+      font-size: 1.7rem;
+   }
+}

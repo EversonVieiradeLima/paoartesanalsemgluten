@@ -23,3 +23,9 @@
       margin-bottom: 0;
    }
 }
+
+@media (max-width: 430px) {
+   .rodape {
+      font-size: .5rem;
+   }
+}

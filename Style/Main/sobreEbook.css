@@ -85,3 +85,42 @@
       height: auto;
    }
 }
+
+@media (max-width: 430px) {
+
+   .sobreEbook__boxConjunto,
+   .sobreEbook__boxTablet,
+   .sobreEbook__boxLivro {
+      padding: 0 1rem;
+   }
+
+   .boxConjunto__titulo {
+      font-size: 1.5rem;
+   }
+
+   .boxConjunto__imagem--conjunto {
+      width: 20rem;
+   }
+
+   .boxTablet__boxInformacoes {
+      flex-direction: column;
+   }
+
+   .boxTablet__boxInformacoes--imagem,
+   .sobreEbook__boxLivro--imagem {
+      height: 10rem;
+   }
+
+   .boxTablet__boxInformacoes--lista,
+   .boxLivro__boxConteudo--lista {
+      font-size: 1rem;
+   }
+
+   .sobreEbook__boxLivro {
+      flex-direction: column;
+   }
+
+   .boxLivro__boxConteudo--titulo {
+      font-size: 1.2rem;
+   }
+}
