@@ -1,6 +1,6 @@
 .corpo__provasSociais {
    background-color: var(--cor-fundo-secundaria);
-   padding: 0 9rem;
+   padding: 0 6rem;
 }
 
 .corpo__provasSociais--titulo,
@@ -25,5 +25,15 @@
 .provasSociais__boxConteudo--text {
    font-weight: 600;
    font-size: 1.5rem;
-   padding-right: 20rem;
+}
+
+@media (max-width: 768px) {
+   .corpo__provasSociais {
+      padding: 0 3rem;
+   }
+
+   .provasSociais__boxConteudo--image {
+      height: 18rem;
+   }
+
 }

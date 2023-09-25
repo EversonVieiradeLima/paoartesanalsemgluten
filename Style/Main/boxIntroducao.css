@@ -1,7 +1,7 @@
 .corpo__boxIntroducao {
    color: var(--corText);
    margin-bottom: 2rem;
-   padding: .5rem 9rem;
+   padding: .5rem 6rem;
    text-align: center;
 }
 
@@ -23,13 +23,13 @@
 .boxIntroducao__boxBeneficios {
    align-items: center;
    display: flex;
-   justify-content: space-between;
    text-align: start;
    height: 320px;
 }
 
 .boxIntroducao__boxBeneficios--image {
    width: 30rem;
+   margin-right: 1rem;
 }
 
 .boxIntroducao__boxBeneficios--lista {
@@ -46,4 +46,21 @@
 .bi.bi-star-fill {
    color: var(--corText-destaque);
    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+
+   .corpo__boxIntroducao {
+      margin-bottom: 1rem;
+      padding: .5rem 3rem;
+   }
+
+   .boxIntroducao__boxBeneficios {
+      height: auto;
+   }
+
+   .boxIntroducao__boxBeneficios--image {
+      width: 15rem;
+      margin-right: 1rem;
+   }
 }

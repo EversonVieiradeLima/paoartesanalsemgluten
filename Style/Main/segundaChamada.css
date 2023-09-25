@@ -2,12 +2,17 @@
    color: var(--corText);
    font-size: 2rem;
    font-weight: 700;
-   padding: 1rem 9rem;
+   padding: 1rem 6rem;
    text-align: center;
 }
 
 .corpo__segundaChamada--botao {
    font-size: 2rem;
-   font-weight: 600;
    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+   .corpo__segundaChamada {
+      padding: 1rem 3rem;
+   }
 }

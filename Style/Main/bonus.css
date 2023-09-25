@@ -1,6 +1,9 @@
 .corpo__bonus {
+   align-items: center;
    background: url("../../Imagens/banners/Nuvens.png") no-repeat center / cover;
-   padding: 0 9rem;
+   display: flex;
+   flex-direction: column;
+   padding: 0 6rem;
 }
 
 .corpo__bonus--titulo {
@@ -12,4 +15,14 @@
 
 .corpo__bonus--imagem {
    width: 60rem;
+}
+
+@media (max-width: 768px) {
+   .corpo__bonus {
+      padding: 0 3rem;
+   }
+
+   .corpo__bonus--imagem {
+      width: 30rem;
+   }
 }

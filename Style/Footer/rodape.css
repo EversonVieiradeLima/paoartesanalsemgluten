@@ -13,3 +13,13 @@
 .rodape__boxLink--link {
    color: var(--corText);
 }
+
+@media (max-width: 768px) {
+   .rodape {
+      padding: .5rem 0;
+   }
+
+   .rodape__text {
+      margin-bottom: 0;
+   }
+}

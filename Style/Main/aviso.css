@@ -6,12 +6,23 @@
 .alert__text {
    font-size: 1.1rem;
    margin: 0;
-   padding: 1rem 8rem;
+   padding: 1rem 5rem;
    text-align: center;
 }
 
 .aviso__text {
    font-size: 1.5rem;
    font-weight: 600;
-   margin: 0 9rem;
+   margin: 0 6rem;
+}
+
+@media (max-width: 768px) {
+   .alert__text {
+      padding: 0 2rem;
+   }
+
+   .aviso__text {
+      font-size: 1.2rem;
+      margin: 0 3rem;
+   }
 }

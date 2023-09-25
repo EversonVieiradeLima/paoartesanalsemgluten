@@ -2,7 +2,7 @@
    background-color: var(--cor-fundo-final);
    color: var(--corText);
    font-size: 1.3rem;
-   padding: 2rem 9rem;
+   padding: 2rem 6rem;
    text-align: center;
 }
 
@@ -16,4 +16,11 @@
    height: 10rem;
    justify-content: space-between;
    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+   .corpo__lamento {
+      font-size: 1rem;
+      padding: 1rem 3rem;
+   }
 }
