@@ -13,13 +13,3 @@
    padding: 0;
    font-family: 'Alice', serif;
 }
-
-.corpo {
-   background: var(--cor-fundo-principal);
-}
-
-
-#nav-link {
-   color: var(--corText);
-
-}
