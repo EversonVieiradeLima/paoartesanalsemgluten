@@ -38,7 +38,7 @@
 
 <div align="left">
   <a href="https://paoartesanalsemgluten.vercel.app" target="_blank">
-    <img src="https://paoartesanalsemgluten.vercel.app/Imagens/logo/logoPaoSemGluten.png" width="52" height="40" alt="linkedin logo"  />
+    <img src="https://paoartesanalsemgluten.vercel.app/Imagens/logo/logoPaoSemGluten.png" width="52" height="52" alt="linkedin logo"  />
   </a>
 </div>
 
