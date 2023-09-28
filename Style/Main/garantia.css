@@ -2,7 +2,13 @@
    align-items: center;
    background-color: var(--corText);
    display: flex;
+   flex-direction: column;
    padding: 2rem 6rem;
+}
+
+.corpo__garantia--box {
+   align-items: center;
+   display: flex;
 }
 
 .corpo__garantia--imagem {
@@ -13,18 +19,34 @@
 .corpo__garantia--text {
    font-size: 1.5rem;
    font-weight: 700;
+   margin-bottom: 0;
+}
+
+.corpo__garantia--text.italico {
+   font-style: italic;
+   margin-top: 1rem;
+   padding: 0 12rem;
+   text-align: center;
 }
 
 @media (max-width: 768px) {
    .corpo__garantia {
       padding: 1rem 3rem;
    }
+
+   .corpo__garantia--text.italico {
+      padding: 0;
+   }
 }
 
 @media (max-width: 430px) {
    .corpo__garantia {
-      flex-direction: column;
       padding: 1rem 1rem 0;
+   }
+
+   .corpo__garantia--box {
+      flex-direction: column;
+      text-align: center;
    }
 
    .corpo__garantia--imagem {
@@ -35,5 +57,9 @@
 
    .corpo__garantia--text {
       font-size: 1rem;
+   }
+
+   .corpo__garantia--text.italico {
+      margin-bottom: 1rem;
    }
 }
